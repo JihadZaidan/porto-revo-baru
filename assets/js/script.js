@@ -292,7 +292,7 @@ function calculateAge(birthDate) {
 }
 
 document.getElementById("age").textContent = `${calculateAge(
-  "1994-07-01"
+  "2007-05-29"
 )} years old`;
 
 // Motto Animation
@@ -307,7 +307,7 @@ let index = 0;
 function flipmotto() {
   mottoElement.textContent = text[index];
 
-  if (text[index] === "Hello, World !") {
+  if (text[index] === "Work Work Work !") {
     clearInterval(intervalId);
   }
 

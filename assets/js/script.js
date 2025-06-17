@@ -347,7 +347,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Lazy Loading on scroll for Projects
 
-document.addEventListener("DOMContentLoaded", function () {
+/* document.addEventListener("DOMContentLoaded", function () {
   let projectItems = document.querySelectorAll(".project-item");
 
   let observer = new IntersectionObserver(
@@ -368,3 +368,4 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(item);
   });
 });
+*/ 
